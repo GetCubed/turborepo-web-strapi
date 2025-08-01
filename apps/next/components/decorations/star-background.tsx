@@ -51,7 +51,7 @@ const StarBackground: React.FC<StarBackgroundProps> = ({
           opacity: Math.random() * 0.5 + 0.5,
           twinkleSpeed: shouldTwinkle
             ? minTwinkleSpeed +
-            Math.random() * (maxTwinkleSpeed - minTwinkleSpeed)
+              Math.random() * (maxTwinkleSpeed - minTwinkleSpeed)
             : null,
         };
       });
@@ -62,7 +62,7 @@ const StarBackground: React.FC<StarBackgroundProps> = ({
       twinkleProbability,
       minTwinkleSpeed,
       maxTwinkleSpeed,
-    ]
+    ],
   );
 
   useEffect(() => {

@@ -19,7 +19,7 @@ export const SkeletonTwo = () => {
       setSliderXPercent(Math.max(0, Math.min(100, percent)));
     },
 
-    []
+    [],
   );
 
   return (
@@ -124,7 +124,7 @@ const Cover = ({
     <span
       className={cn(
         "border rounded-md px-1 py-0.5 mr-1 border-indigo-500 bg-indigo-500/10 text-white",
-        className
+        className,
       )}
     >
       {children}
@@ -183,7 +183,7 @@ const Cursor = ({
       <div
         className={cn(
           "absolute top-3 left-3 p-1 rounded-md  text-[10px] whitespace-pre text-neutral-500  transition duration-200",
-          textClassName
+          textClassName,
         )}
       >
         {text ?? "Manu Arora"}
@@ -204,13 +204,13 @@ const Container = ({
     <div
       className={cn(
         "p-0.5 rounded-lg border border-neutral-600 w-fit",
-        className
+        className,
       )}
       {...props}
     >
       <div
         className={cn(
-          "h-10  text-xs px-2 text-neutral-400  rounded-[5px] flex items-center justify-center bg-neutral-900 shadow-[0px_0px_8px_0px_rgba(248,248,248,0.25)_inset,0px_32px_24px_-16px_rgba(0,0,0,0.40)]"
+          "h-10  text-xs px-2 text-neutral-400  rounded-[5px] flex items-center justify-center bg-neutral-900 shadow-[0px_0px_8px_0px_rgba(248,248,248,0.25)_inset,0px_32px_24px_-16px_rgba(0,0,0,0.40)]",
         )}
       >
         {children}

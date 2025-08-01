@@ -24,14 +24,14 @@ export const GradientContainer = ({
   const limitedScrollYProgress = useTransform(
     scrollYProgress,
     [0, 0.5],
-    [0, 1]
+    [0, 1],
   );
 
   const [percentage, setPercentage] = useState(0);
   useMotionValueEvent(limitedScrollYProgress, "change", (latest) => {
     const newPercentage = Math.min(
       100,
-      Math.max(0, (latest - 0.1) * (100 / 0.9))
+      Math.max(0, (latest - 0.1) * (100 / 0.9)),
     );
     setPercentage(newPercentage);
   });

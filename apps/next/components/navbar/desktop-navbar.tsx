@@ -28,7 +28,12 @@ type Props = {
   locale: string;
 };
 
-export const DesktopNavbar = ({ leftNavbarItems, rightNavbarItems, logo, locale }: Props) => {
+export const DesktopNavbar = ({
+  leftNavbarItems,
+  rightNavbarItems,
+  logo,
+  locale,
+}: Props) => {
   const { scrollY } = useScroll();
 
   const [showBackground, setShowBackground] = useState(false);
@@ -43,7 +48,7 @@ export const DesktopNavbar = ({ leftNavbarItems, rightNavbarItems, logo, locale 
   return (
     <motion.div
       className={cn(
-        "w-full flex relative justify-between px-4 py-3 rounded-md  transition duration-200 bg-transparent mx-auto"
+        "w-full flex relative justify-between px-4 py-3 rounded-md  transition duration-200 bg-transparent mx-auto",
       )}
       animate={{
         width: showBackground ? "80%" : "100%",
@@ -70,7 +75,11 @@ export const DesktopNavbar = ({ leftNavbarItems, rightNavbarItems, logo, locale 
         <Logo locale={locale} image={logo?.image} />
         <div className="flex items-center gap-1.5">
           {leftNavbarItems.map((item) => (
-            <NavbarItem href={`/${locale}${item.URL}` as never} key={item.text} target={item.target}>
+            <NavbarItem
+              href={`/${locale}${item.URL}` as never}
+              key={item.text}
+              target={item.target}
+            >
               {item.text}
             </NavbarItem>
           ))}
@@ -80,7 +89,14 @@ export const DesktopNavbar = ({ leftNavbarItems, rightNavbarItems, logo, locale 
         <LocaleSwitcher currentLocale={locale} />
 
         {rightNavbarItems.map((item, index) => (
-          <Button key={item.text} variant={index === rightNavbarItems.length - 1 ? 'primary' : 'simple'} as={Link} href={`/${locale}${item.URL}`}>
+          <Button
+            key={item.text}
+            variant={
+              index === rightNavbarItems.length - 1 ? "primary" : "simple"
+            }
+            as={Link}
+            href={`/${locale}${item.URL}`}
+          >
             {item.text}
           </Button>
         ))}

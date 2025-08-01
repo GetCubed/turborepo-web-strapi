@@ -10,9 +10,11 @@ import { useCart } from "@/context/cart-context";
 import { strapiImage } from "@/lib/strapi/strapiImage";
 
 export const SingleProduct = ({ product }: { product: Product }) => {
-  const [activeThumbnail, setActiveThumbnail] = useState(strapiImage(product.images[0].url));
+  const [activeThumbnail, setActiveThumbnail] = useState(
+    strapiImage(product.images[0].url),
+  );
   const { addToCart } = useCart();
-  
+
   return (
     <div className="bg-gradient-to-b from-neutral-900 to-neutral-950  p-4 md:p-10 rounded-md">
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -41,24 +43,25 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           </motion.div>
           {/* </AnimatePresence> */}
           <div className="flex gap-4 justify-center items-center mt-4">
-            {product.images && product.images.map((image, index) => (
-              <button
-                onClick={() => setActiveThumbnail(strapiImage(image.url))}
-                key={"product-image" + index}
-                className={cn(
-                  "h-20 w-20 rounded-xl",
-                  activeThumbnail === image
-                    ? "border-2 border-neutral-200"
-                    : "border-2 border-transparent"
-                )}
-                style={{
-                  backgroundImage: `url(${strapiImage(image.url)})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                }}
-              ></button>
-            ))}
+            {product.images &&
+              product.images.map((image, index) => (
+                <button
+                  onClick={() => setActiveThumbnail(strapiImage(image.url))}
+                  key={"product-image" + index}
+                  className={cn(
+                    "h-20 w-20 rounded-xl",
+                    activeThumbnail === image
+                      ? "border-2 border-neutral-200"
+                      : "border-2 border-transparent",
+                  )}
+                  style={{
+                    backgroundImage: `url(${strapiImage(image.url)})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                ></button>
+              ))}
           </div>
         </div>
         <div>
@@ -72,36 +75,39 @@ export const SingleProduct = ({ product }: { product: Product }) => {
 
           <Divider />
           <ul className="list-disc list-inside mb-6">
-            {product.perks && product.perks.map((perk, index) => (
-              <Step key={index}>{perk.text}</Step>
-            ))}
+            {product.perks &&
+              product.perks.map((perk, index) => (
+                <Step key={index}>{perk.text}</Step>
+              ))}
           </ul>
           <h3 className="text-sm font-medium text-neutral-400 mb-2">
             Available for
           </h3>
           <ul className="list-none flex gap-4 flex-wrap">
-            {product.plans && product.plans.map((plan, index) => (
-              <li
-                key={index}
-                className=" bg-neutral-800 text-sm text-white px-3 py-1 rounded-full font-medium"
-              >
-                {plan.name}
-              </li>
-            ))}
+            {product.plans &&
+              product.plans.map((plan, index) => (
+                <li
+                  key={index}
+                  className=" bg-neutral-800 text-sm text-white px-3 py-1 rounded-full font-medium"
+                >
+                  {plan.name}
+                </li>
+              ))}
           </ul>
 
           <h3 className="text-sm font-medium text-neutral-400 mb-2 mt-8">
             Categories
           </h3>
           <ul className="flex gap-4 flex-wrap">
-            {product.categories && product.categories?.map((category, idx) => (
-              <li
-                key={`category-${idx}`}
-                className=" bg-neutral-800 text-sm text-white px-3 py-1 rounded-full font-medium"
-              >
-                {category.name}
-              </li>
-            ))}
+            {product.categories &&
+              product.categories?.map((category, idx) => (
+                <li
+                  key={`category-${idx}`}
+                  className=" bg-neutral-800 text-sm text-white px-3 py-1 rounded-full font-medium"
+                >
+                  {category.name}
+                </li>
+              ))}
           </ul>
           <AddToCartModal onClick={() => addToCart(product)} />
         </div>

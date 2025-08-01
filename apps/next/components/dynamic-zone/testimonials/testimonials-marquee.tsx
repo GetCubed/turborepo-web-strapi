@@ -5,7 +5,11 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { strapiImage } from "@/lib/strapi/strapiImage";
 
-export const TestimonialsMarquee = ({ testimonials }: { testimonials: any }) => {
+export const TestimonialsMarquee = ({
+  testimonials,
+}: {
+  testimonials: any;
+}) => {
   const levelOne = testimonials.slice(0, 8);
   const levelTwo = testimonials.slice(8, 16);
   return (
@@ -86,7 +90,7 @@ export const Card = ({
     <div
       className={cn(
         "p-8 rounded-xl border border-[rgba(255,255,255,0.10)] bg-[rgba(40,40,40,0.30)] shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
-        className
+        className,
       )}
     >
       {children}

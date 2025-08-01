@@ -90,7 +90,7 @@ export const SkeletonFour = () => {
         className: "right-10 bottom-80",
       },
     ],
-    []
+    [],
   );
 
   const [active, setActive] = useState(icons[0]);
@@ -112,7 +112,7 @@ export const SkeletonFour = () => {
           className={cn(
             "rounded-full opacity-20 mx-2 absolute",
             icon.className,
-            active.title === icon.title && "opacity-100"
+            active.title === icon.title && "opacity-100",
           )}
           key={icon.title}
         >

@@ -48,8 +48,7 @@ export const Card = ({
     damping: 90,
   });
 
-  useMotionValueEvent(width, "change", (latest) => {
-  });
+  useMotionValueEvent(width, "change", (latest) => {});
   return (
     <div
       ref={ref}

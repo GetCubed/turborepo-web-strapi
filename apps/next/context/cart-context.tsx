@@ -26,13 +26,13 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
   const addToCart = useCallback((product: Product) => {
     setItems((prevItems) => {
       const existingItem = prevItems.find(
-        (item) => item.product.id === product.id
+        (item) => item.product.id === product.id,
       );
       if (existingItem) {
         return prevItems.map((item) =>
           item.product.id === product.id
             ? { ...item, quantity: item.quantity + 1 }
-            : item
+            : item,
         );
       }
       return [...prevItems, { product, quantity: 1 }];
@@ -41,7 +41,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
 
   const removeFromCart = useCallback((productId: number) => {
     setItems((prevItems) =>
-      prevItems.filter((item) => item.product.id !== productId)
+      prevItems.filter((item) => item.product.id !== productId),
     );
   }, []);
 
@@ -52,15 +52,15 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
   const updateQuantity = useCallback((product: Product, quantity: number) => {
     setItems((prevItems) =>
       prevItems.map((item) =>
-        item.product.id === product.id ? { ...item, quantity } : item
-      )
+        item.product.id === product.id ? { ...item, quantity } : item,
+      ),
     );
   }, []);
 
   const getCartTotal = useCallback(() => {
     return items.reduce(
       (total, item) => total + item.product.price * item.quantity,
-      0
+      0,
     );
   }, [items]);
 

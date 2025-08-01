@@ -12,7 +12,7 @@ export const FeatureIconContainer = ({
     <div className=" [perspective:400px] [transform-style:preserve-3d]">
       <div
         className={cn(
-          "h-14 w-14 p-[4px] rounded-md bg-gradient-to-b from-neutral-800  to-neutral-950 mx-auto relative"
+          "h-14 w-14 p-[4px] rounded-md bg-gradient-to-b from-neutral-800  to-neutral-950 mx-auto relative",
         )}
         style={{
           transform: "rotateX(25deg)",
@@ -22,7 +22,7 @@ export const FeatureIconContainer = ({
         <div
           className={cn(
             "bg-charcoal rounded-[5px] h-full w-full relative z-20",
-            className
+            className,
           )}
         >
           {children}

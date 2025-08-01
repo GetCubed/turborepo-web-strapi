@@ -1,8 +1,8 @@
-import { Metadata } from 'next';
-import PageContent from '@/lib/shared/PageContent';
-import fetchContentType from '@/lib/strapi/fetchContentType';
-import { generateMetadataObject } from '@/lib/shared/metadata';
-import ClientSlugHandler from '../ClientSlugHandler';
+import { Metadata } from "next";
+import PageContent from "@/lib/shared/PageContent";
+import fetchContentType from "@/lib/strapi/fetchContentType";
+import { generateMetadataObject } from "@/lib/shared/metadata";
+import ClientSlugHandler from "../ClientSlugHandler";
 
 export async function generateMetadata({
   params,
@@ -26,7 +26,11 @@ export async function generateMetadata({
   return metadata;
 }
 
-export default async function Page({ params }: { params: { locale: string, slug: string } }) {
+export default async function Page({
+  params,
+}: {
+  params: { locale: string; slug: string };
+}) {
   const pageData = await fetchContentType(
     "pages",
     {
@@ -43,7 +47,7 @@ export default async function Page({ params }: { params: { locale: string, slug:
       acc[localization.locale] = localization.slug;
       return acc;
     },
-    { [params.locale]: params.slug }
+    { [params.locale]: params.slug },
   );
 
   return (
@@ -51,6 +55,5 @@ export default async function Page({ params }: { params: { locale: string, slug:
       <ClientSlugHandler localizedSlugs={localizedSlugs} />
       <PageContent pageData={pageData} />
     </>
-
   );
 }

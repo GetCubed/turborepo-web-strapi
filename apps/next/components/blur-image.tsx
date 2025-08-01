@@ -12,7 +12,7 @@ export const BlurImage = (props: React.ComponentProps<typeof Image>) => {
       className={cn(
         "transition duration-300",
         isLoading ? "blur-sm" : "blur-0",
-        props.className
+        props.className,
       )}
       onLoad={() => setLoading(false)}
       src={src}

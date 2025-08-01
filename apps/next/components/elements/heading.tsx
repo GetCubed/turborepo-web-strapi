@@ -30,7 +30,7 @@ export const Heading = ({
         "font-medium",
         "bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white",
         sizeVariants[size],
-        className
+        className,
       )}
       {...props}
     >

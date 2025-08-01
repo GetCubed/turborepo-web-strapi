@@ -10,7 +10,7 @@ import { BlogPostRows } from "@/components/blog-post-rows";
 import { AmbientColor } from "@/components/decorations/ambient-color";
 import fetchContentType from "@/lib/strapi/fetchContentType";
 import { Article } from "@/types/types";
-import { generateMetadataObject } from '@/lib/shared/metadata';
+import { generateMetadataObject } from "@/lib/shared/metadata";
 
 import ClientSlugHandler from "../ClientSlugHandler";
 
@@ -19,10 +19,14 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  const pageData = await fetchContentType('blog-page', {
-    filters: { locale: params.locale },
-    populate: "seo.metaImage",
-  }, true)
+  const pageData = await fetchContentType(
+    "blog-page",
+    {
+      filters: { locale: params.locale },
+      populate: "seo.metaImage",
+    },
+    true,
+  );
 
   const seo = pageData?.seo;
   const metadata = generateMetadataObject(seo);
@@ -32,21 +36,29 @@ export async function generateMetadata({
 export default async function Blog({
   params,
 }: {
-  params: { locale: string, slug: string };
+  params: { locale: string; slug: string };
 }) {
-  const blogPage = await fetchContentType('blog-page', {
-    filters: { locale: params.locale },
-  }, true)
-  const articles = await fetchContentType('articles', {
-    filters: { locale: params.locale },
-  }, false)
+  const blogPage = await fetchContentType(
+    "blog-page",
+    {
+      filters: { locale: params.locale },
+    },
+    true,
+  );
+  const articles = await fetchContentType(
+    "articles",
+    {
+      filters: { locale: params.locale },
+    },
+    false,
+  );
 
   const localizedSlugs = blogPage.localizations?.reduce(
     (acc: Record<string, string>, localization: any) => {
       acc[localization.locale] = "blog";
       return acc;
     },
-    { [params.locale]: "blog" }
+    { [params.locale]: "blog" },
   );
 
   return (
@@ -67,7 +79,11 @@ export default async function Blog({
         </div>
 
         {articles.data.slice(0, 1).map((article: Article) => (
-          <BlogCard article={article} locale={params.locale} key={article.title} />
+          <BlogCard
+            article={article}
+            locale={params.locale}
+            key={article.title}
+          />
         ))}
 
         <BlogPostRows articles={articles.data} />

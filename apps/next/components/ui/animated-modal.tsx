@@ -107,7 +107,7 @@ export const ModalBody = ({
             ref={modalRef}
             className={cn(
               "min-h-[50%] max-h-[90%] md:max-w-[40%] bg-white  border border-transparent md:rounded-2xl relative z-50 flex flex-col flex-1 overflow-hidden",
-              className
+              className,
             )}
             initial={{
               opacity: 0,
@@ -219,7 +219,7 @@ const CloseIcon = () => {
 // Add it in a separate file, I've added here for simplicity
 export const useOutsideClick = (
   ref: React.RefObject<HTMLDivElement>,
-  callback: Function
+  callback: Function,
 ) => {
   useEffect(() => {
     const listener = (event: any) => {

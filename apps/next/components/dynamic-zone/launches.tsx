@@ -5,14 +5,19 @@ import { FeatureIconContainer } from "./features/feature-icon-container";
 import { Heading } from "../elements/heading";
 import { Subheading } from "../elements/subheading";
 import { StickyScroll } from "@/components/ui/sticky-scroll";
-import {
-  IconRocket,
-} from "@tabler/icons-react";
+import { IconRocket } from "@tabler/icons-react";
 import { useScroll } from "framer-motion";
 
-
-export const Launches = ({ heading, sub_heading, launches }: { heading: string; sub_heading: string; launches: any[] }) => {
-  const launchesWithDecoration = launches.map(entry => ({
+export const Launches = ({
+  heading,
+  sub_heading,
+  launches,
+}: {
+  heading: string;
+  sub_heading: string;
+  launches: any[];
+}) => {
+  const launchesWithDecoration = launches.map((entry) => ({
     ...entry,
     icon: <IconRocket className="h-8 w-8 text-secondary" />,
     content: (
@@ -32,7 +37,9 @@ export const Launches = ({ heading, sub_heading, launches }: { heading: string; 
   const [gradient, setGradient] = useState(backgrounds[0]);
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    const cardsBreakpoints = launches.map((_, index) => index / launches.length);
+    const cardsBreakpoints = launches.map(
+      (_, index) => index / launches.length,
+    );
     const closestBreakpointIndex = cardsBreakpoints.reduce(
       (acc, breakpoint, index) => {
         const distance = Math.abs(latest - breakpoint);
@@ -41,7 +48,7 @@ export const Launches = ({ heading, sub_heading, launches }: { heading: string; 
         }
         return acc;
       },
-      0
+      0,
     );
     setGradient(backgrounds[closestBreakpointIndex % backgrounds.length]);
   });
@@ -61,9 +68,7 @@ export const Launches = ({ heading, sub_heading, launches }: { heading: string; 
           <IconRocket className="h-6 w-6 text-white" />
         </FeatureIconContainer>
         <Heading className="mt-4">{heading}</Heading>
-        <Subheading>
-          {sub_heading}
-        </Subheading>
+        <Subheading>{sub_heading}</Subheading>
       </div>
       <StickyScroll content={launchesWithDecoration} />
     </motion.div>

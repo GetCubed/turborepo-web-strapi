@@ -17,7 +17,7 @@ export const SkeletonThree = () => {
       },
       {
         duration: 0.4,
-      }
+      },
     );
     setAnimating(false);
   };
@@ -348,7 +348,7 @@ const Cover = ({
     <span
       className={cn(
         "border rounded-md px-1 py-0.5 mr-1 border-indigo-500 bg-indigo-500/10 text-white",
-        className
+        className,
       )}
     >
       {children}
