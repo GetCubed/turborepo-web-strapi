@@ -1,26 +1,46 @@
 import React from "react";
+import Link from "next/link";
+
+import { Heading } from "../elements/heading";
+import { Button } from "../elements/button";
+import { Subheading } from "../elements/subheading";
 
 export const Hero = ({
   heading,
   sub_heading,
   CTAs,
-  locale,
+  // locale,
 }: {
   heading: string;
   sub_heading: string;
   CTAs: any[];
-  locale: string;
+  // locale: string;
 }) => {
   return (
-    <div className="outline-white outline-2 h-screen overflow-hidden relative flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold">{heading}</h1>
-      <h2 className="text-2xl font-semibold">{sub_heading}</h2>
-      <div className="flex space-x-4">
-        {CTAs.map((cta, index) => (
-          <button key={index} className="btn">
-            {cta}
-          </button>
-        ))}
+    <div className="h-screen flex flex-col items-center justify-center">
+      <Heading
+        as="h1"
+        className="text-4xl md:text-4xl lg:text-8xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-10 py-6"
+      >
+        {heading.substring(0, heading.lastIndexOf(" "))}{" "}
+        {/* <Cover>{heading.split(" ").pop()}</Cover> */}
+        {heading.split(" ").pop()}
+      </Heading>
+      <Subheading className="text-center mt-2 md:mt-6 text-base md:text-xl text-muted  max-w-3xl mx-auto relative z-10">
+        {sub_heading}
+      </Subheading>
+      <div className="flex space-x-2 items-center mt-8">
+        {CTAs &&
+          CTAs.map((cta) => (
+            <Button
+              key={cta?.id}
+              as={Link}
+              href={`/${cta.URL}`}
+              {...(cta.variant && { variant: cta.variant })}
+            >
+              {cta.text}
+            </Button>
+          ))}
       </div>
     </div>
   );

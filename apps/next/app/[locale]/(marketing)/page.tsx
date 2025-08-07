@@ -19,7 +19,7 @@ export async function generateMetadata({
       },
       populate: "seo.metaImage",
     },
-    true,
+    true
   );
 
   const seo = pageData?.seo;
@@ -40,7 +40,7 @@ export default async function HomePage({
         locale: params.locale,
       },
     },
-    true,
+    true
   );
 
   const localizedSlugs = pageData.localizations?.reduce(
@@ -48,11 +48,12 @@ export default async function HomePage({
       acc[localization.locale] = "";
       return acc;
     },
-    { [params.locale]: "" },
+    { [params.locale]: "" }
   );
 
   return (
     <>
+      {/* <span>{JSON.stringify(pageData, null, 2)}</span> */}
       <ClientSlugHandler localizedSlugs={localizedSlugs} />
       <PageContent pageData={pageData} />
     </>
