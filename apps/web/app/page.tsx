@@ -1,14 +1,20 @@
 import { Hero } from "@/components/dynamic-zone/hero";
 
+import dynamicZones from "@/lib/shared/dynamic-zones.json";
+
+const [heroData, featureData, ...rest] = dynamicZones;
+
 export default function HomePage(): JSX.Element {
   return (
     <main className="border-4 border-white flex flex-col justify-center items-center h-screen w-full">
-      <Hero
-        heading="Hello, World!"
-        sub_heading="Welcome to our website"
-        CTAs={["Get Started", "Learn More"]}
-        locale="en"
-      />
+      {/* <span> heroData: {JSON.stringify(heroData?.CTAs, null, 2)} </span> */}
+      {heroData && (
+        <Hero
+          heading={heroData.heading}
+          sub_heading={heroData.sub_heading}
+          CTAs={heroData.CTAs || []}
+        />
+      )}
     </main>
   );
 }

@@ -1,0 +1,1123 @@
+[
+  {
+    "__component": "dynamic-zone.hero",
+    "id": 3,
+    "heading": "Niagara Glow Riders",
+    "sub_heading": "Using lights and bikes we promote active transportation across Niagara.",
+    "CTAs": [
+      {
+        "id": 25,
+        "text": "Join Us",
+        "URL": "/",
+        "target": null,
+        "variant": null
+      },
+      {
+        "id": 26,
+        "text": "Schedule",
+        "URL": "#schedule",
+        "target": null,
+        "variant": "simple"
+      }
+    ]
+  },
+  {
+    "__component": "dynamic-zone.features",
+    "id": 3,
+    "heading": "Features to Propel Your Content",
+    "sub_heading": "LaunchPad offers a variety of features to help you deliver content to your users in a fast and efficient way.",
+    "globe_card": {
+      "id": 3,
+      "title": "Speedy Delivery",
+      "description": "Rocket-fast content delivery with LaunchPad.",
+      "span": "two"
+    },
+    "ray_card": {
+      "id": 3,
+      "title": "Scalable Payloads",
+      "description": "Flexible payload sizes to fit any content volume.",
+      "span": "one",
+      "before_ray_items": {
+        "id": 5,
+        "item_1": "2,052 Satellites",
+        "item_2": "8,561,035 Starlinks",
+        "item_3": "7,581 Rockets"
+      },
+      "after_ray_items": {
+        "id": 6,
+        "item_1": "2,052 Satellites",
+        "item_2": "8,561,035 Starlinks",
+        "item_3": "7,581 Rockets"
+      }
+    },
+    "graph_card": {
+      "id": 3,
+      "title": "Mission Control Dashboard",
+      "description": "Monitor and manage your content launches.",
+      "highlighted_text": "+8,008 launched",
+      "span": "one",
+      "top_items": [
+        { "id": 5, "number": "6,092", "text": "Last Month" },
+        { "id": 6, "number": "72K", "text": "Modules delivered" }
+      ]
+    },
+    "social_media_card": {
+      "id": 3,
+      "Title": "Interstellar Integration",
+      "Description": "Seamless integration with popular tools and services.",
+      "span": "two",
+      "logos": [
+        {
+          "id": 1,
+          "documentId": "kh24n4eag4oklb676rgcb28d",
+          "company": "Facebook",
+          "createdAt": "2024-08-07T09:07:57.658Z",
+          "updatedAt": "2024-08-07T09:07:58.664Z",
+          "publishedAt": "2024-08-07T09:07:58.671Z",
+          "image": {
+            "id": 1,
+            "documentId": "frmcr02185wpujgx7macf6gy",
+            "name": "facebook.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "facebook_a2f158a34a",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 0.37,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/facebook_a2f158a34a.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.101Z",
+            "updatedAt": "2025-04-07T15:22:11.018Z",
+            "publishedAt": "2024-08-07T09:07:50.102Z"
+          }
+        },
+        {
+          "id": 7,
+          "documentId": "zeczuuehd7pywf205l18xy7o",
+          "company": "LinkedIn",
+          "createdAt": "2024-08-07T09:09:09.970Z",
+          "updatedAt": "2024-08-07T09:09:10.590Z",
+          "publishedAt": "2024-08-07T09:09:10.596Z",
+          "image": {
+            "id": 2,
+            "documentId": "of3u5uin4ab1i4b06ykv2iio",
+            "name": "linkedin.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "linkedin_c7173b3a02",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 0.6,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/linkedin_c7173b3a02.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.109Z",
+            "updatedAt": "2025-04-07T15:22:11.020Z",
+            "publishedAt": "2024-08-07T09:07:50.109Z"
+          }
+        },
+        {
+          "id": 6,
+          "documentId": "q3f481268vjlbmr4boamm165",
+          "company": "Slack",
+          "createdAt": "2024-08-07T09:08:59.669Z",
+          "updatedAt": "2024-08-07T09:09:00.340Z",
+          "publishedAt": "2024-08-07T09:09:00.347Z",
+          "image": {
+            "id": 3,
+            "documentId": "yqbeeaxs3pmmc2hib1vkf84o",
+            "name": "slack.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "slack_7cf9f40887",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 1.21,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/slack_7cf9f40887.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.112Z",
+            "updatedAt": "2025-04-07T15:22:11.021Z",
+            "publishedAt": "2024-08-07T09:07:50.112Z"
+          }
+        },
+        {
+          "id": 4,
+          "documentId": "th4j1t8fcr8f0aur0v2ncvh7",
+          "company": "TikTok",
+          "createdAt": "2024-08-07T09:08:38.158Z",
+          "updatedAt": "2024-08-07T09:08:38.911Z",
+          "publishedAt": "2024-08-07T09:08:38.916Z",
+          "image": {
+            "id": 5,
+            "documentId": "m0c9tzx4zhc0narrbrag7ymv",
+            "name": "tiktok.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "tiktok_da060f5c94",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 2.24,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/tiktok_da060f5c94.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.165Z",
+            "updatedAt": "2025-04-07T15:22:11.025Z",
+            "publishedAt": "2024-08-07T09:07:50.166Z"
+          }
+        },
+        {
+          "id": 3,
+          "documentId": "ftgcxdmb16c5sb653caqm2bs",
+          "company": "X",
+          "createdAt": "2024-08-07T09:08:27.058Z",
+          "updatedAt": "2024-08-07T09:08:27.795Z",
+          "publishedAt": "2024-08-07T09:08:27.806Z",
+          "image": {
+            "id": 6,
+            "documentId": "vz4iiwakv4gs6bur362usm1r",
+            "name": "twitterx.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "twitterx_83bf8af0d3",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 0.59,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/twitterx_83bf8af0d3.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.175Z",
+            "updatedAt": "2025-04-07T15:22:11.027Z",
+            "publishedAt": "2024-08-07T09:07:50.175Z"
+          }
+        },
+        {
+          "id": 2,
+          "documentId": "ypvin20yujwwok0j0vddsi3p",
+          "company": "YouTube",
+          "createdAt": "2024-08-07T09:08:16.712Z",
+          "updatedAt": "2024-08-07T09:08:17.474Z",
+          "publishedAt": "2024-08-07T09:08:17.478Z",
+          "image": {
+            "id": 7,
+            "documentId": "obzp9yqm65j2nrr50wigpocg",
+            "name": "youtube.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "youtube_42df1b73a9",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 0.45,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/youtube_42df1b73a9.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.265Z",
+            "updatedAt": "2025-04-07T15:22:11.028Z",
+            "publishedAt": "2024-08-07T09:07:50.265Z"
+          }
+        },
+        {
+          "id": 5,
+          "documentId": "ob2j8ro4un2b1vl2x0dhw9ag",
+          "company": "instagram",
+          "createdAt": "2024-08-07T09:08:49.989Z",
+          "updatedAt": "2024-08-07T09:08:50.771Z",
+          "publishedAt": "2024-08-07T09:08:50.775Z",
+          "image": {
+            "id": 4,
+            "documentId": "k7xtwwqio439lkrvsjzwfe5j",
+            "name": "instagram.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 48,
+            "height": 48,
+            "formats": null,
+            "hash": "instagram_fa068d4893",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 16.34,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/instagram_fa068d4893.svg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T09:07:50.116Z",
+            "updatedAt": "2025-04-07T15:22:11.024Z",
+            "publishedAt": "2024-08-07T09:07:50.116Z"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "__component": "dynamic-zone.testimonials",
+    "id": 2,
+    "heading": "What Our Users Say",
+    "sub_heading": "Hear from our satisfied users who have experienced the benefits of our service firsthand.",
+    "testimonials": [
+      {
+        "id": 2,
+        "documentId": "d8w83hagb4ay3ajmk5zrb2d8",
+        "text": "LaunchPad transformed our content delivery. It's like having a personal space shuttle for our website!",
+        "createdAt": "2024-08-07T10:04:29.669Z",
+        "updatedAt": "2024-08-07T10:04:31.072Z",
+        "publishedAt": "2024-08-07T10:04:31.079Z",
+        "locale": "en",
+        "user": {
+          "id": 26,
+          "firstname": "Jane",
+          "lastname": "Doe",
+          "job": "Content Manager",
+          "image": {
+            "id": 8,
+            "documentId": "b9fa9ewd9nu4nn2lup76a994",
+            "name": "jane.jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "jane_f553821308",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 4.79,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/jane_f553821308.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T10:04:26.116Z",
+            "updatedAt": "2025-04-07T15:22:11.030Z",
+            "publishedAt": "2024-08-07T10:04:26.117Z"
+          }
+        }
+      },
+      {
+        "id": 4,
+        "documentId": "ny2c7b5g5pa3i8h4b7vi79a0",
+        "text": "Using LaunchPad is too easy. Our content is delivered at warp speed!",
+        "createdAt": "2024-08-07T10:05:22.495Z",
+        "updatedAt": "2024-08-07T10:05:23.161Z",
+        "publishedAt": "2024-08-07T10:05:23.166Z",
+        "locale": "en",
+        "user": {
+          "id": 28,
+          "firstname": "Alfred",
+          "lastname": "Pecker",
+          "job": "Developer",
+          "image": {
+            "id": 9,
+            "documentId": "k4vuftjiil2kel218s32td27",
+            "name": "alfred.jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "alfred_7432e6015c",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 4.93,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/alfred_7432e6015c.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T10:05:07.534Z",
+            "updatedAt": "2025-04-07T15:22:11.032Z",
+            "publishedAt": "2024-08-07T10:05:07.534Z"
+          }
+        }
+      },
+      {
+        "id": 10,
+        "documentId": "wvo6g0jw5594u8cx590yqxdk",
+        "text": "Integrating LaunchPad into our workflow was seamless. The advanced analytics and reporting tools give us valuable insights, helping us to continuously improve our content strategy.",
+        "createdAt": "2024-08-07T14:26:55.708Z",
+        "updatedAt": "2024-08-07T14:26:57.365Z",
+        "publishedAt": "2024-08-07T14:26:57.371Z",
+        "locale": "en",
+        "user": {
+          "id": 34,
+          "firstname": "Emily",
+          "lastname": "Chen",
+          "job": "Web Developer",
+          "image": {
+            "id": 13,
+            "documentId": "ufjtxj18uqtuizsoa0cqz7lp",
+            "name": "150 (3).jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "150_3_92cafa8276",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 5.64,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/150_3_92cafa8276.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T14:26:53.526Z",
+            "updatedAt": "2025-04-07T15:22:11.073Z",
+            "publishedAt": "2024-08-07T14:26:53.526Z"
+          }
+        }
+      },
+      {
+        "id": 14,
+        "documentId": "gbsa3jr6cntie19vqkvndbyx",
+        "text": "LaunchPad provides the reliability and efficiency we need for our product updates. The team collaboration tools and priority support ensure smooth launches every time, keeping our users informed and engaged.",
+        "createdAt": "2024-08-07T14:28:22.356Z",
+        "updatedAt": "2024-08-07T14:28:23.350Z",
+        "publishedAt": "2024-08-07T14:28:23.355Z",
+        "locale": "en",
+        "user": {
+          "id": 38,
+          "firstname": "Sophia",
+          "lastname": "Martinez",
+          "job": "Product Manager",
+          "image": {
+            "id": 15,
+            "documentId": "kqnrfoyxlmgqklpxn0zj4qwr",
+            "name": "150 (6).jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "150_6_6425ed4e29",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 6.62,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/150_6_6425ed4e29.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T14:27:52.181Z",
+            "updatedAt": "2025-04-07T15:22:11.085Z",
+            "publishedAt": "2024-08-07T14:27:52.182Z"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "documentId": "kr7r5q2iza2vzlajh2i938j7",
+        "text": "LaunchPad revolutionized the way we deliver content. The speed and reliability are unmatched, making our campaigns more effective and reaching our audience faster than ever.",
+        "createdAt": "2024-08-07T14:23:33.633Z",
+        "updatedAt": "2024-08-07T14:24:11.381Z",
+        "publishedAt": "2024-08-07T14:24:11.388Z",
+        "locale": "en",
+        "user": {
+          "id": 30,
+          "firstname": "Alice",
+          "lastname": "Johnson",
+          "job": "Digital Marketer",
+          "image": {
+            "id": 11,
+            "documentId": "qcgx5dmot0b2pg00vm8gma76",
+            "name": "150.jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "150_ec0263c9c6",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 6.83,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/150_ec0263c9c6.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T14:24:04.318Z",
+            "updatedAt": "2025-04-07T15:22:11.060Z",
+            "publishedAt": "2024-08-07T14:24:04.318Z"
+          }
+        }
+      },
+      {
+        "id": 8,
+        "documentId": "tbao7dw1fgbph9imuzmsooeg",
+        "text": "Using LaunchPad has been a game-changer for our team. The intuitive interface and powerful features allow us to focus on creating great content while knowing it will be delivered flawlessly.",
+        "createdAt": "2024-08-07T14:25:21.688Z",
+        "updatedAt": "2024-08-07T14:25:22.714Z",
+        "publishedAt": "2024-08-07T14:25:22.720Z",
+        "locale": "en",
+        "user": {
+          "id": 32,
+          "firstname": "Carlos",
+          "lastname": "Fernandez",
+          "job": "Content Strategist",
+          "image": {
+            "id": 12,
+            "documentId": "o44h5y8j19whpi81176fcjc7",
+            "name": "150 (1).jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "150_1_72b31e9d92",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 4.47,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/150_1_72b31e9d92.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T14:25:17.853Z",
+            "updatedAt": "2025-04-07T15:22:11.066Z",
+            "publishedAt": "2024-08-07T14:25:17.853Z"
+          }
+        }
+      },
+      {
+        "id": 12,
+        "documentId": "un76c4x9venhuczod59sp6sn",
+        "text": "With LaunchPad, our content reaches our audience without delay. The real-time tracking and performance monitoring have significantly enhanced our SEO efforts, resulting in better search rankings.",
+        "createdAt": "2024-08-07T14:27:57.899Z",
+        "updatedAt": "2024-08-07T14:27:59.110Z",
+        "publishedAt": "2024-08-07T14:27:59.116Z",
+        "locale": "en",
+        "user": {
+          "id": 36,
+          "firstname": "David",
+          "lastname": "Lee",
+          "job": "SEO Specialist",
+          "image": {
+            "id": 14,
+            "documentId": "lyh0re80zaz6siquyn7dobua",
+            "name": "150 (4).jpeg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 150,
+            "height": 150,
+            "formats": null,
+            "hash": "150_4_735f9c676c",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "size": 2.96,
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/150_4_735f9c676c.jpeg",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-strapi-cloud",
+            "provider_metadata": null,
+            "createdAt": "2024-08-07T14:27:52.176Z",
+            "updatedAt": "2025-04-07T15:22:11.079Z",
+            "publishedAt": "2024-08-07T14:27:52.176Z"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "__component": "dynamic-zone.how-it-works",
+    "id": 3,
+    "heading": "How LaunchPad works",
+    "sub_heading": "Discover LaunchPad's innovative system: revolutionizing content delivery for global, high-speed user access.",
+    "steps": [
+      {
+        "id": 9,
+        "title": "Plan your Mission",
+        "description": "Choose your payload plan and schedule your launch."
+      },
+      {
+        "id": 10,
+        "title": "Prepare your Payload",
+        "description": "Organize and prepare your content."
+      },
+      {
+        "id": 11,
+        "title": "Launch your Content",
+        "description": "Send your content into orbit with a click."
+      },
+      {
+        "id": 12,
+        "title": "Monitor",
+        "description": "Track your content's journey and ensure successful delivery."
+      }
+    ]
+  },
+  {
+    "__component": "dynamic-zone.brands",
+    "id": 7,
+    "heading": "Trusted by Leading Brands",
+    "sub_heading": "LaunchPad is trusted by fortune 500 space organizations.",
+    "logos": [
+      {
+        "id": 10,
+        "documentId": "cn583xrprefc0z2r75a4vvqn",
+        "company": "AstroContent",
+        "createdAt": "2024-09-10T17:57:36.995Z",
+        "updatedAt": "2024-09-10T17:57:36.995Z",
+        "publishedAt": "2024-09-10T17:57:36.991Z",
+        "image": {
+          "id": 29,
+          "documentId": "z056knf71rcfkiq8i2e68iev",
+          "name": "fe031ea8fe069eeaffc144d5f7323fe6.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 569,
+          "height": 65,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/small_fe031ea8fe069eeaffc144d5f7323fe6_3fd70d3be4.png",
+              "hash": "small_fe031ea8fe069eeaffc144d5f7323fe6_3fd70d3be4",
+              "mime": "image/png",
+              "name": "small_fe031ea8fe069eeaffc144d5f7323fe6.png",
+              "path": null,
+              "size": 20.67,
+              "width": 500,
+              "height": 57,
+              "sizeInBytes": 20670
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_fe031ea8fe069eeaffc144d5f7323fe6_3fd70d3be4.png",
+              "hash": "thumbnail_fe031ea8fe069eeaffc144d5f7323fe6_3fd70d3be4",
+              "mime": "image/png",
+              "name": "thumbnail_fe031ea8fe069eeaffc144d5f7323fe6.png",
+              "path": null,
+              "size": 9.32,
+              "width": 245,
+              "height": 28,
+              "sizeInBytes": 9318
+            }
+          },
+          "hash": "fe031ea8fe069eeaffc144d5f7323fe6_3fd70d3be4",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 5.27,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/fe031ea8fe069eeaffc144d5f7323fe6_3fd70d3be4.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-09-10T17:56:37.275Z",
+          "updatedAt": "2025-04-07T15:22:11.991Z",
+          "publishedAt": "2024-09-10T17:56:37.276Z"
+        }
+      },
+      {
+        "id": 14,
+        "documentId": "ld0nudx8yxiym0dulq6k6o1o",
+        "company": "PlanetWorker",
+        "createdAt": "2024-09-10T18:29:13.786Z",
+        "updatedAt": "2024-09-10T18:29:13.786Z",
+        "publishedAt": "2024-09-10T18:29:13.782Z",
+        "image": {
+          "id": 31,
+          "documentId": "cye1jiocz2zu3doyo0fimaim",
+          "name": "6a212f698ee7a5b7fcad6703d90f4cc0.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 697,
+          "height": 84,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/small_6a212f698ee7a5b7fcad6703d90f4cc0_224039d0e6.png",
+              "hash": "small_6a212f698ee7a5b7fcad6703d90f4cc0_224039d0e6",
+              "mime": "image/png",
+              "name": "small_6a212f698ee7a5b7fcad6703d90f4cc0.png",
+              "path": null,
+              "size": 14.19,
+              "width": 500,
+              "height": 60,
+              "sizeInBytes": 14192
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_6a212f698ee7a5b7fcad6703d90f4cc0_224039d0e6.png",
+              "hash": "thumbnail_6a212f698ee7a5b7fcad6703d90f4cc0_224039d0e6",
+              "mime": "image/png",
+              "name": "thumbnail_6a212f698ee7a5b7fcad6703d90f4cc0.png",
+              "path": null,
+              "size": 7.79,
+              "width": 245,
+              "height": 30,
+              "sizeInBytes": 7786
+            }
+          },
+          "hash": "6a212f698ee7a5b7fcad6703d90f4cc0_224039d0e6",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.44,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/6a212f698ee7a5b7fcad6703d90f4cc0_224039d0e6.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-09-10T18:28:39.625Z",
+          "updatedAt": "2025-04-07T15:22:12.132Z",
+          "publishedAt": "2024-09-10T18:28:39.625Z"
+        }
+      },
+      {
+        "id": 11,
+        "documentId": "t8zpyodcu9odeecuznajtz2e",
+        "company": "LunarStories",
+        "createdAt": "2024-09-10T17:57:48.109Z",
+        "updatedAt": "2024-09-10T17:57:48.109Z",
+        "publishedAt": "2024-09-10T17:57:48.105Z",
+        "image": {
+          "id": 3,
+          "documentId": "yqbeeaxs3pmmc2hib1vkf84o",
+          "name": "slack.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 48,
+          "height": 48,
+          "formats": null,
+          "hash": "slack_7cf9f40887",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 1.21,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/slack_7cf9f40887.svg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-08-07T09:07:50.112Z",
+          "updatedAt": "2025-04-07T15:22:11.021Z",
+          "publishedAt": "2024-08-07T09:07:50.112Z"
+        }
+      },
+      {
+        "id": 12,
+        "documentId": "ye3mxvz85n44tevcmqslyo3j",
+        "company": "SpaceLetter",
+        "createdAt": "2024-09-10T18:28:53.621Z",
+        "updatedAt": "2024-09-10T18:28:53.621Z",
+        "publishedAt": "2024-09-10T18:28:53.617Z",
+        "image": {
+          "id": 30,
+          "documentId": "w4ev86xuya5h97g1f78r82dn",
+          "name": "7ee6c51f86a8779f1ac3fb687b305e50.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 394,
+          "height": 72,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_7ee6c51f86a8779f1ac3fb687b305e50_a0b0a22418.png",
+              "hash": "thumbnail_7ee6c51f86a8779f1ac3fb687b305e50_a0b0a22418",
+              "mime": "image/png",
+              "name": "thumbnail_7ee6c51f86a8779f1ac3fb687b305e50.png",
+              "path": null,
+              "size": 11.01,
+              "width": 245,
+              "height": 45,
+              "sizeInBytes": 11010
+            }
+          },
+          "hash": "7ee6c51f86a8779f1ac3fb687b305e50_a0b0a22418",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.24,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/7ee6c51f86a8779f1ac3fb687b305e50_a0b0a22418.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-09-10T18:28:39.564Z",
+          "updatedAt": "2025-04-07T15:22:12.049Z",
+          "publishedAt": "2024-09-10T18:28:39.565Z"
+        }
+      },
+      {
+        "id": 9,
+        "documentId": "qjjiemvopc44oik678axubro",
+        "company": "Rocket Story",
+        "createdAt": "2024-09-10T17:57:25.077Z",
+        "updatedAt": "2024-09-10T17:57:25.077Z",
+        "publishedAt": "2024-09-10T17:57:25.069Z",
+        "image": {
+          "id": 4,
+          "documentId": "k7xtwwqio439lkrvsjzwfe5j",
+          "name": "instagram.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 48,
+          "height": 48,
+          "formats": null,
+          "hash": "instagram_fa068d4893",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 16.34,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/instagram_fa068d4893.svg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-08-07T09:07:50.116Z",
+          "updatedAt": "2025-04-07T15:22:11.024Z",
+          "publishedAt": "2024-08-07T09:07:50.116Z"
+        }
+      },
+      {
+        "id": 13,
+        "documentId": "cnbbzmsa8htv10izyrqb4ijc",
+        "company": "StackHole",
+        "createdAt": "2024-09-10T18:29:02.731Z",
+        "updatedAt": "2024-09-10T18:29:02.731Z",
+        "publishedAt": "2024-09-10T18:29:02.728Z",
+        "image": {
+          "id": 2,
+          "documentId": "of3u5uin4ab1i4b06ykv2iio",
+          "name": "linkedin.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 48,
+          "height": 48,
+          "formats": null,
+          "hash": "linkedin_c7173b3a02",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 0.6,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/linkedin_c7173b3a02.svg",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-08-07T09:07:50.109Z",
+          "updatedAt": "2025-04-07T15:22:11.020Z",
+          "publishedAt": "2024-08-07T09:07:50.109Z"
+        }
+      },
+      {
+        "id": 16,
+        "documentId": "tbvgmv625fm0m8imm6jak7l5",
+        "company": "CosmoTrends",
+        "createdAt": "2024-09-10T18:37:33.546Z",
+        "updatedAt": "2024-09-10T18:37:33.546Z",
+        "publishedAt": "2024-09-10T18:37:33.543Z",
+        "image": {
+          "id": 33,
+          "documentId": "fiawlzjlnds9juhqz5jy96qf",
+          "name": "8fe214ce0671c82b2dffba3aa6968f38.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 346,
+          "height": 99,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_8fe214ce0671c82b2dffba3aa6968f38_afa1e9fd29.png",
+              "hash": "thumbnail_8fe214ce0671c82b2dffba3aa6968f38_afa1e9fd29",
+              "mime": "image/png",
+              "name": "thumbnail_8fe214ce0671c82b2dffba3aa6968f38.png",
+              "path": null,
+              "size": 13.06,
+              "width": 245,
+              "height": 70,
+              "sizeInBytes": 13062
+            }
+          },
+          "hash": "8fe214ce0671c82b2dffba3aa6968f38_afa1e9fd29",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.93,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/8fe214ce0671c82b2dffba3aa6968f38_afa1e9fd29.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-09-10T18:37:11.075Z",
+          "updatedAt": "2025-04-07T15:22:12.271Z",
+          "publishedAt": "2024-09-10T18:37:11.076Z"
+        }
+      },
+      {
+        "id": 15,
+        "documentId": "buatyrpykuoxvnitn1ydkhjk",
+        "company": "StarKeting",
+        "createdAt": "2024-09-10T18:37:23.289Z",
+        "updatedAt": "2024-09-10T18:37:23.289Z",
+        "publishedAt": "2024-09-10T18:37:23.286Z",
+        "image": {
+          "id": 34,
+          "documentId": "o9j0pp6sc54cu4yu666a4h3g",
+          "name": "1c29a4618a32311bcb30f8766f125410.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 539,
+          "height": 68,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/small_1c29a4618a32311bcb30f8766f125410_3db99ce60b.png",
+              "hash": "small_1c29a4618a32311bcb30f8766f125410_3db99ce60b",
+              "mime": "image/png",
+              "name": "small_1c29a4618a32311bcb30f8766f125410.png",
+              "path": null,
+              "size": 44.51,
+              "width": 500,
+              "height": 63,
+              "sizeInBytes": 44512
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_1c29a4618a32311bcb30f8766f125410_3db99ce60b.png",
+              "hash": "thumbnail_1c29a4618a32311bcb30f8766f125410_3db99ce60b",
+              "mime": "image/png",
+              "name": "thumbnail_1c29a4618a32311bcb30f8766f125410.png",
+              "path": null,
+              "size": 15.52,
+              "width": 245,
+              "height": 31,
+              "sizeInBytes": 15524
+            }
+          },
+          "hash": "1c29a4618a32311bcb30f8766f125410_3db99ce60b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 10.37,
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/1c29a4618a32311bcb30f8766f125410_3db99ce60b.png",
+          "previewUrl": null,
+          "provider": "strapi-provider-upload-strapi-cloud",
+          "provider_metadata": null,
+          "createdAt": "2024-09-10T18:37:11.149Z",
+          "updatedAt": "2025-04-07T15:22:12.375Z",
+          "publishedAt": "2024-09-10T18:37:11.150Z"
+        }
+      }
+    ]
+  },
+  {
+    "__component": "dynamic-zone.pricing",
+    "id": 7,
+    "heading": "Pricing",
+    "sub_heading": "Choose your payload.",
+    "plans": [
+      {
+        "id": 5,
+        "documentId": "sltcgbanxa3rmlgj6zob1ex9",
+        "name": "Starter Shuttle",
+        "price": 100,
+        "sub_text": "launch",
+        "featured": null,
+        "createdAt": "2024-08-07T10:10:39.444Z",
+        "updatedAt": "2024-09-04T08:57:57.135Z",
+        "publishedAt": "2024-09-04T11:25:46.857Z",
+        "CTA": {
+          "id": 37,
+          "text": "Get Started",
+          "URL": null,
+          "target": null,
+          "variant": "primary"
+        },
+        "perks": [
+          { "id": 28, "text": "Launch up to 1,000 content items" },
+          { "id": 29, "text": "Basic Mission Control Dashboard" },
+          { "id": 30, "text": "Standard Delivery" },
+          { "id": 31, "text": "Basic analytics" }
+        ],
+        "additional_perks": [],
+        "product": {
+          "id": 9,
+          "documentId": "gqw7wwpeuf4lisyaubf4dtxm",
+          "name": "Mission Control Plus",
+          "price": 3000,
+          "description": "Upgrade your control center with Mission Control Plus. Offers enhanced monitoring and management features for your content launches.",
+          "slug": "mission-control-plus",
+          "featured": null,
+          "createdAt": "2024-08-07T14:37:26.800Z",
+          "updatedAt": "2024-09-12T10:40:42.599Z",
+          "publishedAt": "2024-09-12T10:40:42.626Z"
+        }
+      },
+      {
+        "id": 6,
+        "documentId": "ysf6c3nbf9n2ik07vr572kve",
+        "name": "Pro Rocket",
+        "price": 3000,
+        "sub_text": "launch",
+        "featured": null,
+        "createdAt": "2024-08-07T10:11:28.756Z",
+        "updatedAt": "2024-09-04T11:16:58.599Z",
+        "publishedAt": "2024-09-04T11:25:46.857Z",
+        "CTA": {
+          "id": 38,
+          "text": "Get Started",
+          "URL": null,
+          "target": null,
+          "variant": "primary"
+        },
+        "perks": [
+          { "id": 32, "text": "Launch up to 100,000 content items" },
+          { "id": 33, "text": "Advanced Mission Control Dashboard" },
+          { "id": 34, "text": "High Speed Delivery" },
+          { "id": 35, "text": "Advanced analytics" },
+          { "id": 36, "text": "Priority Support" }
+        ],
+        "additional_perks": [
+          { "id": 37, "text": "Everything included from Starter Shuttle" }
+        ],
+        "product": {
+          "id": 9,
+          "documentId": "gqw7wwpeuf4lisyaubf4dtxm",
+          "name": "Mission Control Plus",
+          "price": 3000,
+          "description": "Upgrade your control center with Mission Control Plus. Offers enhanced monitoring and management features for your content launches.",
+          "slug": "mission-control-plus",
+          "featured": null,
+          "createdAt": "2024-08-07T14:37:26.800Z",
+          "updatedAt": "2024-09-12T10:40:42.599Z",
+          "publishedAt": "2024-09-12T10:40:42.626Z"
+        }
+      },
+      {
+        "id": 7,
+        "documentId": "rdvhrmnjyh1phnxur3yw9wk2",
+        "name": "Team Explorer",
+        "price": 15000,
+        "sub_text": "launch",
+        "featured": true,
+        "createdAt": "2024-08-07T10:12:17.980Z",
+        "updatedAt": "2024-09-04T11:17:25.172Z",
+        "publishedAt": "2024-09-04T11:25:46.857Z",
+        "CTA": {
+          "id": 39,
+          "text": "Get Started",
+          "URL": null,
+          "target": null,
+          "variant": "primary"
+        },
+        "perks": [
+          { "id": 38, "text": "Launch up to 1,000,000 content items" },
+          { "id": 39, "text": "Collaborative Mission Control Dashboard" },
+          { "id": 40, "text": "High-Speed Delivery" },
+          { "id": 41, "text": "Advanced analytics and reporting" },
+          { "id": 42, "text": "Priority Support" },
+          { "id": 43, "text": "Team collaboration tools" }
+        ],
+        "additional_perks": [
+          { "id": 44, "text": "Everything included from Starter Shuttle" },
+          { "id": 45, "text": "Everything included from Pro Rocket" }
+        ],
+        "product": {
+          "id": 10,
+          "documentId": "qa8nr6db29sixxeh0c9vwmyl",
+          "name": "Payload Manager Pro",
+          "price": 2000,
+          "description": "Streamline your content organization and management with the Payload Manager Pro. Ideal for teams handling large volumes of content.",
+          "slug": "payload-manager-pro",
+          "featured": true,
+          "createdAt": "2024-08-07T14:33:49.508Z",
+          "updatedAt": "2024-09-12T10:40:52.601Z",
+          "publishedAt": "2024-09-12T10:40:52.666Z"
+        }
+      },
+      {
+        "id": 8,
+        "documentId": "dnz7ts4ymiwdmvemtbebn4k6",
+        "name": "Enterprise Shuttle",
+        "price": null,
+        "sub_text": "",
+        "featured": null,
+        "createdAt": "2024-08-07T10:13:12.700Z",
+        "updatedAt": "2024-09-09T11:35:02.008Z",
+        "publishedAt": "2024-09-09T11:35:02.030Z",
+        "CTA": {
+          "id": 40,
+          "text": "Contact us",
+          "URL": null,
+          "target": null,
+          "variant": "primary"
+        },
+        "perks": [
+          { "id": 46, "text": "Unlimited content items per launch" },
+          { "id": 47, "text": "Customizable Mission Control Dashboard" },
+          { "id": 48, "text": "Ultra-Speed Delivery" },
+          { "id": 49, "text": "Comprehensive analytics and reporting" },
+          { "id": 50, "text": "Dedicated Support Team" },
+          { "id": 51, "text": "Custom Integrations and Solutions" }
+        ],
+        "additional_perks": [
+          { "id": 52, "text": "Everything included from Starter Shuttle" },
+          { "id": 53, "text": "Everything included from Pro Rocket" },
+          { "id": 54, "text": "Everything included from Team Explorer" }
+        ],
+        "product": {
+          "id": 10,
+          "documentId": "qa8nr6db29sixxeh0c9vwmyl",
+          "name": "Payload Manager Pro",
+          "price": 2000,
+          "description": "Streamline your content organization and management with the Payload Manager Pro. Ideal for teams handling large volumes of content.",
+          "slug": "payload-manager-pro",
+          "featured": true,
+          "createdAt": "2024-08-07T14:33:49.508Z",
+          "updatedAt": "2024-09-12T10:40:52.601Z",
+          "publishedAt": "2024-09-12T10:40:52.666Z"
+        }
+      }
+    ]
+  },
+  {
+    "__component": "dynamic-zone.launches",
+    "id": 3,
+    "heading": "Recent Launches",
+    "sub_heading": "Our latest launches that made it to the universe.",
+    "launches": [
+      {
+        "id": 7,
+        "mission_number": "Mission #102",
+        "title": "Successfully delivered blog posts to WebOrbit",
+        "description": "Our cutting-edge content delivery system successfully launched and distributed blog posts to WebOrbit, ensuring seamless global access and optimal performance."
+      },
+      {
+        "id": 8,
+        "mission_number": "Mission #101",
+        "title": "Launched product updates for SpaceTech",
+        "description": "We were able to launch product updates for SpaceTech, ensuring they were delivered to their customers in a timely manner."
+      },
+      {
+        "id": 9,
+        "mission_number": "Mission #100",
+        "title": "Sent marketing content to AstroContent.",
+        "description": "AstroContent is by far the fastest growing content delivery platform, we were able to send marketing content to them."
+      }
+    ]
+  },
+  {
+    "__component": "dynamic-zone.cta",
+    "id": 11,
+    "heading": "Ready to Launch Your Content?",
+    "sub_heading": "Join LaunchPad and start delivering your content with the speed and reliability of a space shuttle.",
+    "CTAs": [
+      {
+        "id": 27,
+        "text": "Book a demo",
+        "URL": "/contact",
+        "target": null,
+        "variant": "muted"
+      },
+      {
+        "id": 28,
+        "text": "Sign up now",
+        "URL": "/sign-up",
+        "target": null,
+        "variant": "primary"
+      }
+    ]
+  }
+]
