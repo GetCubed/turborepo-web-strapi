@@ -26,7 +26,6 @@ const getRandomStartPoint = () => {
 
 const ShootingStars: React.FC = () => {
   const [star, setStar] = useState<ShootingStar | null>(null);
-  const [randomDelay, setRandomDelay] = useState<number>(0);
   const svgRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
@@ -44,7 +43,6 @@ const ShootingStars: React.FC = () => {
       setStar(newStar);
 
       const delay = Math.random() * 1500 + 1500;
-      setRandomDelay(delay);
       setTimeout(createStar, delay);
     };
 
