@@ -15,7 +15,7 @@ export default function PageContent({ pageData }: { pageData: any }) {
 
       <span className="border-t-8">
         {/* json stringify. beautify this json here */}
-        {JSON.stringify(pageData?.dynamic_zone, null, 2)}
+        {/* {JSON.stringify(pageData?.dynamic_zone, null, 2)} */}
       </span>
     </div>
   );

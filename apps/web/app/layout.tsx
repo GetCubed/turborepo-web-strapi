@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import "./globals.css";
 
+import { Footer } from "@/components/footer";
+
+import pageData from "@/lib/shared/page-data.json";
+
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
@@ -12,8 +16,8 @@ import "./globals.css";
 // });
 
 export const metadata: Metadata = {
-  title: "Turborepo Web Strapi",
-  description: "Turborepo Web Strapi template",
+  title: "Niagara Glow Riders",
+  description: "Niagara Glow Riders",
 };
 
 export default function RootLayout({
@@ -22,7 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body className={`${geistSans.variable} ${geistMono.variable}`}> */}
-      <body>{children}</body>
+      <body>
+        {children}
+        <Footer data={pageData.footer} />
+      </body>
     </html>
   );
 }
