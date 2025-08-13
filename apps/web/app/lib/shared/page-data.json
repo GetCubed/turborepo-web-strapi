@@ -1,0 +1,398 @@
+{
+  "id": 3,
+  "documentId": "en793kiwci00j3coe6fxod3r",
+  "createdAt": "2024-08-07T10:40:21.837Z",
+  "updatedAt": "2024-09-25T09:02:37.707Z",
+  "publishedAt": "2024-09-25T09:02:37.755Z",
+  "locale": "en",
+  "seo": {
+    "id": 5,
+    "metaTitle": "LaunchPad - Deliver Your Content into Orbit",
+    "metaDescription": "LaunchPad is the ultimate solution for delivering content at warp speed. Explore how our advanced technology launches your digital assets into space, making sure they reach your audience faster and more reliably.",
+    "keywords": null,
+    "metaRobots": null,
+    "structuredData": null,
+    "metaViewport": null,
+    "canonicalURL": null,
+    "metaImage": {
+      "id": 38,
+      "documentId": "vaipw3ju1syr4fjte2vstyry",
+      "name": "LaunchPad.jpg",
+      "alternativeText": null,
+      "caption": null,
+      "width": 1920,
+      "height": 967,
+      "formats": {
+        "large": {
+          "ext": ".jpg",
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/large_Launch_Pad_2ce50f287f.jpg",
+          "hash": "large_Launch_Pad_2ce50f287f",
+          "mime": "image/jpeg",
+          "name": "large_LaunchPad.jpg",
+          "path": null,
+          "size": 14.47,
+          "width": 1000,
+          "height": 504,
+          "sizeInBytes": 14472
+        },
+        "small": {
+          "ext": ".jpg",
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/small_Launch_Pad_2ce50f287f.jpg",
+          "hash": "small_Launch_Pad_2ce50f287f",
+          "mime": "image/jpeg",
+          "name": "small_LaunchPad.jpg",
+          "path": null,
+          "size": 4.55,
+          "width": 500,
+          "height": 252,
+          "sizeInBytes": 4546
+        },
+        "medium": {
+          "ext": ".jpg",
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/medium_Launch_Pad_2ce50f287f.jpg",
+          "hash": "medium_Launch_Pad_2ce50f287f",
+          "mime": "image/jpeg",
+          "name": "medium_LaunchPad.jpg",
+          "path": null,
+          "size": 9.74,
+          "width": 750,
+          "height": 378,
+          "sizeInBytes": 9736
+        },
+        "thumbnail": {
+          "ext": ".jpg",
+          "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_Launch_Pad_2ce50f287f.jpg",
+          "hash": "thumbnail_Launch_Pad_2ce50f287f",
+          "mime": "image/jpeg",
+          "name": "thumbnail_LaunchPad.jpg",
+          "path": null,
+          "size": 1.47,
+          "width": 245,
+          "height": 123,
+          "sizeInBytes": 1470
+        }
+      },
+      "hash": "Launch_Pad_2ce50f287f",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 38.91,
+      "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/Launch_Pad_2ce50f287f.jpg",
+      "previewUrl": null,
+      "provider": "strapi-provider-upload-strapi-cloud",
+      "provider_metadata": null,
+      "createdAt": "2024-09-16T12:27:09.937Z",
+      "updatedAt": "2025-04-07T15:22:12.978Z",
+      "publishedAt": "2024-09-16T12:27:09.938Z",
+      "related": [
+        {
+          "__type": "shared.seo",
+          "id": 3,
+          "metaTitle": "LaunchPad - Deliver Your Content into Orbit",
+          "metaDescription": "LaunchPad is the ultimate solution for delivering content at warp speed. Explore how our advanced technology launches your digital assets into space, making sure they reach your audience faster and more reliably.",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 5,
+          "metaTitle": "LaunchPad - Deliver Your Content into Orbit",
+          "metaDescription": "LaunchPad is the ultimate solution for delivering content at warp speed. Explore how our advanced technology launches your digital assets into space, making sure they reach your audience faster and more reliably.",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 4,
+          "metaTitle": "LaunchPad – Diffusez votre contenu en orbite",
+          "metaDescription": "LaunchPad est la solution idéale pour diffuser du contenu à une vitesse fulgurante. ",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 6,
+          "metaTitle": "LaunchPad – Diffusez votre contenu en orbite",
+          "metaDescription": "LaunchPad est la solution idéale pour diffuser du contenu à une vitesse fulgurante. ",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 7,
+          "metaTitle": "LaunchPad - Deliver Your Content into Orbit",
+          "metaDescription": "LaunchPad is the ultimate solution for delivering content at warp speed. Explore how our advanced technology launches your digital assets into space, making sure they reach your audience faster and more reliably.",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 21,
+          "metaTitle": "LaunchPad - Deliver Your Content into Orbit",
+          "metaDescription": "LaunchPad is the ultimate solution for delivering content at warp speed. Explore how our advanced technology launches your digital assets into space, making sure they reach your audience faster and more reliably.",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 14,
+          "metaTitle": "LaunchPad – Diffusez votre contenu en orbite",
+          "metaDescription": "LaunchPad est la solution idéale pour diffuser du contenu à une vitesse fulgurante.",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        },
+        {
+          "__type": "shared.seo",
+          "id": 22,
+          "metaTitle": "LaunchPad – Diffusez votre contenu en orbite",
+          "metaDescription": "LaunchPad est la solution idéale pour diffuser du contenu à une vitesse fulgurante.",
+          "keywords": null,
+          "metaRobots": null,
+          "structuredData": null,
+          "metaViewport": null,
+          "canonicalURL": null
+        }
+      ]
+    }
+  },
+  "navbar": {
+    "id": 3,
+    "logo": {
+      "id": 8,
+      "documentId": "qb5sukjx6sdpaamsqe0p1ptm",
+      "company": "LaunchPad",
+      "createdAt": "2024-08-07T10:35:40.594Z",
+      "updatedAt": "2024-09-09T11:33:00.624Z",
+      "publishedAt": "2024-09-09T11:33:00.613Z",
+      "image": {
+        "id": 10,
+        "documentId": "xvftb2pgf1y959adxuqgn5vx",
+        "name": "logo.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1024,
+        "height": 1024,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/large_logo_6a13c79c4b.png",
+            "hash": "large_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "large_logo.png",
+            "path": null,
+            "size": 370.62,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 370620
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/small_logo_6a13c79c4b.png",
+            "hash": "small_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "small_logo.png",
+            "path": null,
+            "size": 95.33,
+            "width": 500,
+            "height": 500,
+            "sizeInBytes": 95333
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/medium_logo_6a13c79c4b.png",
+            "hash": "medium_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "medium_logo.png",
+            "path": null,
+            "size": 236.68,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 236682
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_logo_6a13c79c4b.png",
+            "hash": "thumbnail_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "thumbnail_logo.png",
+            "path": null,
+            "size": 12.03,
+            "width": 156,
+            "height": 156,
+            "sizeInBytes": 12030
+          }
+        },
+        "hash": "logo_6a13c79c4b",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 122.96,
+        "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/logo_6a13c79c4b.png",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-strapi-cloud",
+        "provider_metadata": null,
+        "createdAt": "2024-08-07T10:35:35.923Z",
+        "updatedAt": "2025-04-07T15:22:11.054Z",
+        "publishedAt": "2024-08-07T10:35:35.923Z"
+      }
+    },
+    "left_navbar_items": [
+      { "id": 39, "text": "Pricing", "URL": "/pricing", "target": null },
+      { "id": 40, "text": "Products", "URL": "/products", "target": null },
+      { "id": 41, "text": "Blog", "URL": "/blog", "target": null },
+      { "id": 42, "text": "Contact", "URL": "/contact", "target": null },
+      { "id": 43, "text": "FAQ", "URL": "/faq", "target": null }
+    ],
+    "right_navbar_items": [
+      { "id": 44, "text": "Book a demo", "URL": "/contact", "target": null },
+      { "id": 45, "text": "Sign up", "URL": "/sign-up", "target": null }
+    ]
+  },
+  "footer": {
+    "id": 3,
+    "description": "LaunchPad is a rapid content delivery platform that helps you deliver content to your users in a fast and efficient way.",
+    "copyright": "Copyright © 2024 Strapi INC",
+    "designed_developed_by": "Designed and Developed by Strapi & Aceternity",
+    "built_with": "built with Strapi, Next.js, Tailwind CSS, Framer Motion, Aceternity UI, and icons8",
+    "logo": {
+      "id": 8,
+      "documentId": "qb5sukjx6sdpaamsqe0p1ptm",
+      "company": "LaunchPad",
+      "createdAt": "2024-08-07T10:35:40.594Z",
+      "updatedAt": "2024-09-09T11:33:00.624Z",
+      "publishedAt": "2024-09-09T11:33:00.613Z",
+      "image": {
+        "id": 10,
+        "documentId": "xvftb2pgf1y959adxuqgn5vx",
+        "name": "logo.png",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1024,
+        "height": 1024,
+        "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/large_logo_6a13c79c4b.png",
+            "hash": "large_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "large_logo.png",
+            "path": null,
+            "size": 370.62,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 370620
+          },
+          "small": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/small_logo_6a13c79c4b.png",
+            "hash": "small_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "small_logo.png",
+            "path": null,
+            "size": 95.33,
+            "width": 500,
+            "height": 500,
+            "sizeInBytes": 95333
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/medium_logo_6a13c79c4b.png",
+            "hash": "medium_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "medium_logo.png",
+            "path": null,
+            "size": 236.68,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 236682
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/thumbnail_logo_6a13c79c4b.png",
+            "hash": "thumbnail_logo_6a13c79c4b",
+            "mime": "image/png",
+            "name": "thumbnail_logo.png",
+            "path": null,
+            "size": 12.03,
+            "width": 156,
+            "height": 156,
+            "sizeInBytes": 12030
+          }
+        },
+        "hash": "logo_6a13c79c4b",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 122.96,
+        "url": "https://legendary-ducks-2d47a9b55f.media.strapiapp.com/logo_6a13c79c4b.png",
+        "previewUrl": null,
+        "provider": "strapi-provider-upload-strapi-cloud",
+        "provider_metadata": null,
+        "createdAt": "2024-08-07T10:35:35.923Z",
+        "updatedAt": "2025-04-07T15:22:11.054Z",
+        "publishedAt": "2024-08-07T10:35:35.923Z"
+      }
+    },
+    "internal_links": [
+      { "id": 46, "text": "Pricing", "URL": "/pricing", "target": null },
+      { "id": 47, "text": "Blog", "URL": "/blog", "target": null },
+      { "id": 48, "text": "Products", "URL": "/products", "target": null },
+      { "id": 49, "text": "FAQ", "URL": "/faq", "target": null },
+      { "id": 50, "text": "Contact", "URL": "/contact", "target": null },
+      { "id": 51, "text": "Sign up", "URL": "/sign-up", "target": null }
+    ],
+    "policy_links": [
+      { "id": 52, "text": "Privacy Policy", "URL": "/", "target": null },
+      { "id": 53, "text": "Terms of Service", "URL": "/", "target": null },
+      { "id": 54, "text": "Refund Policy", "URL": "/", "target": null }
+    ],
+    "social_media_links": [
+      {
+        "id": 55,
+        "text": "X",
+        "URL": "https://x.com/strapijs",
+        "target": "_blank"
+      },
+      {
+        "id": 56,
+        "text": "LinkedIn",
+        "URL": "https://linkedin.com/strapi",
+        "target": "_blank"
+      },
+      {
+        "id": 57,
+        "text": "GitHub",
+        "URL": "https://github.com/strapi/launchpad",
+        "target": "_blank"
+      }
+    ]
+  },
+  "localizations": [
+    {
+      "id": 4,
+      "documentId": "en793kiwci00j3coe6fxod3r",
+      "createdAt": "2024-09-10T13:13:42.737Z",
+      "updatedAt": "2025-04-14T05:18:21.358Z",
+      "publishedAt": "2025-04-14T05:18:21.373Z",
+      "locale": "fr"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ export async function generateMetadata({
       filters: { locale: params.locale },
       populate: "seo.metaImage",
     },
-    true,
+    true
   );
 
   const seo = pageData?.seo;
@@ -47,7 +47,7 @@ export default async function LocaleLayout({
   const pageData = await fetchContentType(
     "global",
     { filters: { locale } },
-    true,
+    true
   );
   return (
     <html lang={locale}>
@@ -56,12 +56,13 @@ export default async function LocaleLayout({
           <body
             className={cn(
               inter.className,
-              "bg-charcoal antialiased h-full w-full",
+              "bg-charcoal antialiased h-full w-full"
             )}
           >
             <Navbar data={pageData.navbar} locale={locale} />
             {children}
             <Footer data={pageData.footer} locale={locale} />
+            <span>{JSON.stringify(pageData, null, 2)}</span>
           </body>
         </CartProvider>
       </ViewTransitions>

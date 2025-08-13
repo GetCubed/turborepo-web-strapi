@@ -8,15 +8,12 @@
       {
         "id": 25,
         "text": "Join Us",
-        "URL": "/",
-        "target": null,
-        "variant": null
+        "URL": "/"
       },
       {
         "id": 26,
         "text": "Schedule",
         "URL": "#schedule",
-        "target": null,
         "variant": "simple"
       }
     ]

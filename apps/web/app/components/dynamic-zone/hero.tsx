@@ -13,9 +13,10 @@ import ShootingStars from "../decorations/shooting-star";
 import StarBackground from "../decorations/star-background";
 
 type CTA = {
-  id: string | number;
-  URL: string;
+  id: number;
   text: string;
+  URL: string;
+  target?: string;
   variant?: string;
 };
 
@@ -59,6 +60,7 @@ export const Hero = ({
               <Button
                 key={cta?.id}
                 as={Link}
+                // href={`/${cta?.URL}`}
                 href={`/`}
                 {...(cta.variant && {
                   variant: cta.variant as
@@ -73,7 +75,7 @@ export const Hero = ({
             );
           })}
       </div>
-      <div className="absolute inset-x-0 bottom-0 h-80 w-full bg-gradient-to-t from-charcoal to-transparent" />
+      {/* <div className="absolute inset-x-0 bottom-0 h-80 w-full bg-gradient-to-t from-charcoal to-transparent" /> */}
     </div>
   );
 };
