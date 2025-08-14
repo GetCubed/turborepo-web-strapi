@@ -1,31 +1,11 @@
 {
-  "name": "web-strapi-monorepo",
+  "name": "web-strapi",
   "private": true,
-  "scripts": {
-    "dev": "concurrently \"npm run dev:next\" \"npm run dev:strapi\"",
-    "dev:next": "cd apps/next && npm run dev",
-    "dev:strapi": "cd apps/strapi && npm run dev",
-    "build": "npm run build:next && npm run build:strapi",
-    "build:next": "cd apps/next && npm run build",
-    "build:strapi": "cd apps/strapi && npm run build",
-    "start": "concurrently \"npm run start:next\" \"npm run start:strapi\"",
-    "start:next": "cd apps/next && npm run start",
-    "start:strapi": "cd apps/strapi && npm run start",
-    "lint": "cd apps/next && npm run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "cd apps/next && npm run type-check",
-    "clean": "rm -rf apps/*/node_modules packages/*/node_modules node_modules"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2",
-    "prettier": "^3.6.2",
-    "typescript": "5.8.3"
-  },
+  "scripts": {},
+  "devDependencies": {},
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
-  "engines": {
-    "node": ">=18"
-  }
+  "engines": {}
 }

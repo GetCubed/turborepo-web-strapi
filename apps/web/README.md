@@ -15,13 +15,13 @@ This is the `web` app in the monorepo, built with [Next.js](https://nextjs.org) 
 Install dependencies from the monorepo root:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 Run the development server (on port 3001):
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 Open [http://localhost:3001](http://localhost:3001) to view the app.
@@ -30,11 +30,11 @@ Edit `app/page.tsx` to update the homepage. Global styles are in `app/globals.cs
 
 ## Scripts
 
-- `pnpm dev` — Start dev server (port 3001)
-- `pnpm build` — Build for production
-- `pnpm start` — Start production server
-- `pnpm lint` — Lint code
-- `pnpm check-types` — Type-check project
+- `yarn dev` — Start dev server (port 3001)
+- `yarn build` — Build for production
+- `yarn start` — Start production server
+- `yarn lint` — Lint code
+- `yarn check-types` — Type-check project
 
 ## Configuration
 

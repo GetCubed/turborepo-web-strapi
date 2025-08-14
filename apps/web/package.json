@@ -11,7 +11,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+  "@repo/ui": "*",
     "clsx": "^2.1.1",
     "motion": "^12.23.12",
     "next": "^15.4.2",
@@ -21,8 +21,8 @@
     "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+  "@repo/eslint-config": "*",
+  "@repo/typescript-config": "*",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",

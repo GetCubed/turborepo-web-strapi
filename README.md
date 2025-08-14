@@ -4,13 +4,13 @@
 
 # Web Strapi Monorepo Template
 
-> This repository is a ready-to-use template for building modern web applications with [Strapi](https://strapi.io/) and [Next.js](https://nextjs.org/). It provides a scalable monorepo structure using pnpm workspaces, shared configurations, and a seamless developer experience out of the box.
+ > This repository is a ready-to-use template for building modern web applications with [Strapi](https://strapi.io/) and [Next.js](https://nextjs.org/). It provides a scalable monorepo structure using Yarn workspaces, shared configurations, and a seamless developer experience out of the box.
 
 ---
 
 ## Features
 
-- **Monorepo setup** powered by pnpm workspaces for efficient dependency management
+ - **Monorepo setup** powered by Yarn workspaces for efficient dependency management
 - **Strapi backend** for flexible headless CMS and API
 - **Next.js web frontend** for building performant user interfaces
 - **Shared UI library** for reusable React components
@@ -37,35 +37,35 @@
 
 ## Getting Started
 
-1. **Install dependencies** (using [pnpm](https://pnpm.io/) recommended):
+1. **Install dependencies** (using [Yarn](https://yarnpkg.com/) recommended):
 
    ```sh
-   pnpm install
+   yarn install
    ```
 
 2. **Develop locally**:
 
    ```sh
-   pnpm dev
+   yarn dev
    ```
 
    Or run a specific app:
 
    ```sh
-   pnpm dev:next
-   pnpm dev:strapi
+   yarn workspace next dev
+   yarn workspace strapi dev
    ```
 
 3. **Build for production**:
    ```sh
-   pnpm build
+   yarn build
    ```
 
 ---
 
 ## Included Tools
 
-- **pnpm workspaces** for monorepo management
+ - **Yarn workspaces** for monorepo management
 - [Strapi](https://strapi.io/) for backend CMS/API
 - [Next.js](https://nextjs.org/) for frontend
 - [TypeScript](https://www.typescriptlang.org/) for type safety
@@ -75,7 +75,7 @@
 
 ## Useful Links
 
-- [pnpm Workspaces Documentation](https://pnpm.io/workspaces)
+ - [Yarn Workspaces Documentation](https://yarnpkg.com/features/workspaces)
 - [Strapi Documentation](https://docs.strapi.io/)
 - [Next.js Documentation](https://nextjs.org/docs)
 
