@@ -1,18 +1,30 @@
 {
-  "name": "turborepo-web-strapi",
+  "name": "web-strapi-monorepo",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "dev": "concurrently \"npm run dev:next\" \"npm run dev:strapi\"",
+    "dev:next": "cd apps/next && npm run dev",
+    "dev:strapi": "cd apps/strapi && npm run dev",
+    "build": "npm run build:next && npm run build:strapi",
+    "build:next": "cd apps/next && npm run build",
+    "build:strapi": "cd apps/strapi && npm run build",
+    "start": "concurrently \"npm run start:next\" \"npm run start:strapi\"",
+    "start:next": "cd apps/next && npm run start",
+    "start:strapi": "cd apps/strapi && npm run start",
+    "lint": "cd apps/next && npm run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "check-types": "cd apps/next && npm run type-check",
+    "clean": "rm -rf apps/*/node_modules packages/*/node_modules node_modules"
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "prettier": "^3.6.2",
-    "turbo": "^2.5.5",
     "typescript": "5.8.3"
   },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "engines": {
     "node": ">=18"
   }

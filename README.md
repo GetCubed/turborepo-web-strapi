@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="./opengraph.png" alt="Turborepo Web Strapi Template Open Graph" width="600" />
+  <img src="./opengraph.png" alt="Web Strapi Monorepo Template Open Graph" width="600" />
 </p>
 
-# Turborepo Web Strapi Template
+# Web Strapi Monorepo Template
 
-> This repository is a ready-to-use template for building modern web applications with [Turborepo](https://turbo.build/), [Strapi](https://strapi.io/), and a basic [Next.js](https://nextjs.org/) frontend. It provides a scalable monorepo structure, shared configurations, and a seamless developer experience out of the box.
+> This repository is a ready-to-use template for building modern web applications with [Strapi](https://strapi.io/) and [Next.js](https://nextjs.org/). It provides a scalable monorepo structure using pnpm workspaces, shared configurations, and a seamless developer experience out of the box.
 
 ---
 
 ## Features
 
-- **Monorepo setup** powered by Turborepo for fast builds and efficient development
+- **Monorepo setup** powered by pnpm workspaces for efficient dependency management
 - **Strapi backend** for flexible headless CMS and API
 - **Next.js web frontend** for building performant user interfaces
 - **Shared UI library** for reusable React components
@@ -31,8 +31,7 @@
 │   ├── eslint-config/      # Shared ESLint config
 │   └── typescript-config/  # Shared TypeScript config
 ├── opengraph.png  # Open Graph image
-├── turbo.json     # Turborepo config
-└── ...            # Other configs and assets
+└── package.json   # Root package.json with workspace config
 ```
 
 ---
@@ -48,26 +47,26 @@
 2. **Develop locally**:
 
    ```sh
-   pnpm turbo dev
+   pnpm dev
    ```
 
    Or run a specific app:
 
    ```sh
-   pnpm turbo dev --filter=web
-   pnpm turbo dev --filter=strapi
+   pnpm dev:next
+   pnpm dev:strapi
    ```
 
 3. **Build for production**:
    ```sh
-   pnpm turbo build
+   pnpm build
    ```
 
 ---
 
 ## Included Tools
 
-- [Turborepo](https://turbo.build/) for monorepo management
+- **pnpm workspaces** for monorepo management
 - [Strapi](https://strapi.io/) for backend CMS/API
 - [Next.js](https://nextjs.org/) for frontend
 - [DaisyUI](https://daisyui.com/) for Tailwind CSS component library
@@ -78,9 +77,9 @@
 
 ## Useful Links
 
-- [Turborepo Documentation](https://turbo.build/docs)
+- [pnpm Workspaces Documentation](https://pnpm.io/workspaces)
 - [Strapi Documentation](https://docs.strapi.io/)
 - [Next.js Documentation](https://nextjs.org/docs)
-- [Vercel Remote Cache](https://vercel.com/docs/remote-cache)
+- [DaisyUI Documentation](https://daisyui.com/)
 
 ---
