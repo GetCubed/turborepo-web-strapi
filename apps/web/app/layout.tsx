@@ -16,8 +16,8 @@ import pageData from "@/lib/shared/page-data.json";
 // });
 
 export const metadata: Metadata = {
-  title: "Niagara Glow Riders",
-  description: "Niagara Glow Riders",
+  title: "Web Strapi",
+  description: "Web Strapi template",
 };
 
 export default function RootLayout({
