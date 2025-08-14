@@ -14,7 +14,6 @@
 - **Strapi backend** for flexible headless CMS and API
 - **Next.js web frontend** for building performant user interfaces
 - **Shared UI library** for reusable React components
-- **DaisyUI integration** for rapid Tailwind CSS component styling
 - **Centralized TypeScript and ESLint configs** for consistency
 - **Open Graph image** for improved social sharing
 
@@ -69,7 +68,6 @@
 - **pnpm workspaces** for monorepo management
 - [Strapi](https://strapi.io/) for backend CMS/API
 - [Next.js](https://nextjs.org/) for frontend
-- [DaisyUI](https://daisyui.com/) for Tailwind CSS component library
 - [TypeScript](https://www.typescriptlang.org/) for type safety
 - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for code quality
 
@@ -80,6 +78,5 @@
 - [pnpm Workspaces Documentation](https://pnpm.io/workspaces)
 - [Strapi Documentation](https://docs.strapi.io/)
 - [Next.js Documentation](https://nextjs.org/docs)
-- [DaisyUI Documentation](https://daisyui.com/)
 
 ---

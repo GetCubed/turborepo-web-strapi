@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-// import daisyui from "daisyui";
 
 const {
   default: flattenColorPalette,
@@ -51,7 +50,6 @@ const config: Config = {
     },
   },
   plugins: [
-    // daisyui,
     // require("tailwindcss-animate"),
     // require("@tailwindcss/typography"),
     addVariablesForColors,
